@@ -1,14 +1,13 @@
  
-% CODE TO EXTRACT ANALOG FEATURES FOR TRAINING THE 
-% BINARIZED NEURAL NETWORK
+% CODE TO EXTRACT ANALOG FEATURES FOR TRAINING THE BINARIZED NEURAL NETWORK CLASSIFIER
 
 % References - 
 % [1]   J. Ramirez, J. M. Gorriz, J. C. Segura, C. G. Puntonet and A. J. Rubio, "Speech/non-speech discrimination
 %       based on contextual information integrated bispectrum LRT," in IEEE Signal Processing Letters,
 %       vol. 13, no. 8, pp. 497-500, Aug. 2006.
-%  Statistical VAD parameters - 80 samples (10ms), overlap factor -2 (20ms per frame)
-%
-%
+%  Statistical VAD parameters - Frame length - 160ms, Frame shift - 80ms (Overlap factor - 2)
+
+
 % Dependent functions:-
 % an_features() - Function to extract analog features
 % ramirez()     - Function implementing Statistical VAD using Integrated bispectrum
