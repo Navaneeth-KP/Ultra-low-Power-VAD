@@ -7,6 +7,7 @@ An ultra-low power VAD (Voice Activity Detector) using Analog Feature extraction
   - K. M. H. Badami, S. Lauwereins, W. Meert, and M. Verhelst, “A 90 nm CMOS, 6 μW power-proportional acoustic sensing frontend for voice activity detection,” IEEE J. Solid-State Circuits, vol. 51, no. 1, pp. 291–302, Jan. 2016.
   - J. Ramirez, J. M. Gorriz, J. C. Segura, C. G. Puntonet and A. J. Rubio, "Speech/non-speech discrimination based on contextual information integrated bispectrum LRT," in IEEE Signal Processing Letters, vol. 13, no. 8, pp. 497-500, Aug. 2006.
   - NOISEUS Speech Database -https://ecs.utdallas.edu/loizou/speech/noizeus/
+  - VOICEBOX: Speech Processing Toolbox for MATLAB - http://www.ee.ic.ac.uk/hp/staff/dmb/voicebox/voicebox.html 
 
 2. **BNN_train.py**
 - Code to train a Binarized Neural Network (BNN) to classify features into Speech/Non-speech, using **Keras** framework.
