@@ -1,7 +1,7 @@
 # Ultra-low-Power-VAD
 An ultra-low power VAD (Voice Activity Detector) using Analog Feature extraction and Binarized Neural Network Classifier
 1. **AFE.m**
-- Code implementing Analog Feature Extraction using 16 channel Band Pass Fitler bank
+- **MATLAB** Code implementing Analog Feature Extraction using 16 channel Band Pass Fitler bank
 - Labeling of features using Statistical VAD on integrated bispectrum of audio signal
 - References 
   - K. M. H. Badami, S. Lauwereins, W. Meert, and M. Verhelst, “A 90 nm CMOS, 6 μW power-proportional acoustic sensing frontend for voice activity detection,” IEEE J. Solid-State Circuits, vol. 51, no. 1, pp. 291–302, Jan. 2016.
